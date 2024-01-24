@@ -91,4 +91,4 @@ void LedRGB::setColorCC(int crC, int cgC, int cbC){
 	analogWrite(_pinB, cbC);
 }
 
-LedRGB led_rgb(R_PIN, G_PIN, B_PIN, CC);
+LedRGB led_rgb(R_PIN, G_PIN, B_PIN, CA);
